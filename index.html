@@ -1,0 +1,1243 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Un pequeño recuerdo de nuestro primer mes ❤️"
+    >
+
+    <title>Nuestro primer mes ❤️</title>
+
+
+    <!-- =========================================
+         FUENTES
+    ========================================== -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+
+    <!-- =========================================
+         CSS
+    ========================================== -->
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+</head>
+
+
+<body>
+
+
+    <!-- =========================================
+         CORAZONES FLOTANTES
+    ========================================== -->
+
+    <div id="corazones"></div>
+
+
+
+    <!-- ==================================================
+         PANTALLA 1
+         INICIO
+    =================================================== -->
+
+    <section
+        class="pantalla activa"
+        id="inicio"
+    >
+
+        <div class="sobre">
+
+            <div class="sobre-corazon">
+                ❤️
+            </div>
+
+
+            <p class="pequeno">
+                Tengo algo preparado para ti...
+            </p>
+
+
+            <h1>
+
+                Es nuestro primer
+
+                <span>
+                    mes
+                </span>
+
+            </h1>
+
+
+            <p class="descripcion">
+
+                Hoy cumplimos nuestro primer mesito
+                y quería hacerte algo diferente.
+
+                <br><br>
+
+                Algo que puedas guardar
+                como un pequeño recuerdo de nosotros. ❤️
+
+            </p>
+
+
+            <button
+                class="btn"
+                onclick="irA('historia')"
+            >
+
+                Abrir mi sorpresa 💌
+
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ==================================================
+         PANTALLA 2
+         HISTORIA
+    =================================================== -->
+
+    <section
+        class="pantalla"
+        id="historia"
+    >
+
+        <div class="contenido">
+
+            <span class="numero">
+                01
+            </span>
+
+
+            <h2>
+                Y pensar que todo comenzó
+                de una manera tan inesperada... 🌷
+            </h2>
+
+
+            <div class="linea"></div>
+
+
+            <p class="texto">
+
+                Quizás un mes parezca poquito
+                para algunas personas,
+
+                pero cuando alguien comienza
+                a ocupar un lugar especial
+                en tu corazón,
+
+                el tiempo deja de medirse
+                solamente en días.
+
+            </p>
+
+
+            <p class="texto">
+
+                Y hoy quería detenerme un momento
+                para decirte que me alegra muchísimo
+                haberte encontrado.
+
+                ❤️
+
+            </p>
+
+
+            <p class="texto">
+
+                Gracias por formar parte
+                de este pequeño comienzo.
+
+            </p>
+
+
+            <button
+                class="btn"
+                onclick="irA('recuerdos')"
+            >
+
+                Ver nuestros recuerdos 📸
+
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ==================================================
+         PANTALLA 3
+         GALERÍA DE 23 FOTOS
+    =================================================== -->
+
+    <section
+        class="pantalla"
+        id="recuerdos"
+    >
+
+        <div class="contenido grande">
+
+
+            <span class="numero">
+                02
+            </span>
+
+
+            <h2>
+                Pequeños recuerdos,
+                grandes momentos 📸
+            </h2>
+
+
+            <p class="subtexto">
+
+                Cada foto guarda un pequeño pedacito
+                de nuestra historia.
+
+                <br>
+
+                Haz clic en cualquiera
+                para verla más grande. ❤️
+
+            </p>
+
+
+
+            <!-- ==================================================
+                 GALERÍA
+            =================================================== -->
+
+            <div class="galeria">
+
+
+                <!-- FOTO 1 -->
+
+                <div
+                    class="foto"
+                    onclick="abrirFoto(this)"
+                >
+
+                    <img
+                        src="fotos/foto1.jpeg"
+                        alt="Nuestro recuerdo 1"
+                        loading="lazy"
+                    >
+
+                    <div class="corazon-foto">
+                        ♡
+                    </div>
+
+                </div>
+
+
+
+                <!-- FOTO 2 -->
+
+                <div
+                    class="foto"
+                    onclick="abrirFoto(this)"
+                >
+
+                    <img
+                        src="fotos/foto2.jpeg"
+                        alt="Nuestro recuerdo 2"
+                        loading="lazy"
+                    >
+
+                    <div class="corazon-foto">
+                        ♡
+                    </div>
+
+                </div>
+
+
+
+                <!-- FOTO 3 -->
+
+                <div
+                    class="foto"
+                    onclick="abrirFoto(this)"
+                >
+
+                    <img
+                        src="fotos/foto3.jpeg"
+                        alt="Nuestro recuerdo 3"
+                        loading="lazy"
+                    >
+
+                    <div class="corazon-foto">
+                        ♡
+                    </div>
+
+                </div>
+
+
+
+                <!-- FOTO 4 -->
+
+                <div
+                    class="foto"
+                    onclick="abrirFoto(this)"
+                >
+
+                    <img
+                        src="fotos/foto4.jpeg"
+                        alt="Nuestro recuerdo 4"
+                        loading="lazy"
+                    >
+
+                    <div class="corazon-foto">
+                        ♡
+                    </div>
+
+                </div>
+
+
+
+                <!-- FOTO 5 -->
+
+                <div
+                    class="foto"
+                    onclick="abrirFoto(this)"
+                >
+
+                    <img
+                        src="fotos/foto5.jpeg"
+                        alt="Nuestro recuerdo 5"
+                        loading="lazy"
+                    >
+
+                    <div class="corazon-foto">
+                        ♡
+                    </div>
+
+                </div>
+
+
+
+                <!-- FOTO 6 -->
+
+                <div
+                    class="foto"
+                    onclick="abrirFoto(this)"
+                >
+
+                    <img
+                        src="fotos/foto6.jpeg"
+                        alt="Nuestro recuerdo 6"
+                        loading="lazy"
+                    >
+
+                    <div class="corazon-foto">
+                        ♡
+                    </div>
+
+                </div>
+
+
+
+                <!-- FOTO 7 -->
+
+                <div
+                    class="foto"
+                    onclick="abrirFoto(this)"
+                >
+
+                    <img
+                        src="fotos/foto7.jpeg"
+                        alt="Nuestro recuerdo 7"
+                        loading="lazy"
+                    >
+
+                    <div class="corazon-foto">
+                        ♡
+                    </div>
+
+                </div>
+
+
+
+                <!-- FOTO 8 -->
+
+                <div
+                    class="foto"
+                    onclick="abrirFoto(this)"
+                >
+
+                    <img
+                        src="fotos/foto8.jpeg"
+                        alt="Nuestro recuerdo 8"
+                        loading="lazy"
+                    >
+
+                    <div class="corazon-foto">
+                        ♡
+                    </div>
+
+                </div>
+
+
+
+                <!-- FOTO 9 -->
+
+                <div
+                    class="foto"
+                    onclick="abrirFoto(this)"
+                >
+
+                    <img
+                        src="fotos/foto9.jpeg"
+                        alt="Nuestro recuerdo 9"
+                        loading="lazy"
+                    >
+
+                    <div class="corazon-foto">
+                        ♡
+                    </div>
+
+                </div>
+
+
+
+                <!-- FOTO 10 -->
+
+                <div
+                    class="foto"
+                    onclick="abrirFoto(this)"
+                >
+
+                    <img
+                        src="fotos/foto10.jpeg"
+                        alt="Nuestro recuerdo 10"
+                        loading="lazy"
+                    >
+
+                    <div class="corazon-foto">
+                        ♡
+                    </div>
+
+                </div>
+
+
+
+                <!-- FOTO 11 -->
+
+                <div
+                    class="foto"
+                    onclick="abrirFoto(this)"
+                >
+
+                    <img
+                        src="fotos/foto11.jpeg"
+                        alt="Nuestro recuerdo 11"
+                        loading="lazy"
+                    >
+
+                    <div class="corazon-foto">
+                        ♡
+                    </div>
+
+                </div>
+
+
+
+                <!-- FOTO 12 -->
+
+                <div
+                    class="foto"
+                    onclick="abrirFoto(this)"
+                >
+
+                    <img
+                        src="fotos/foto12.jpeg"
+                        alt="Nuestro recuerdo 12"
+                        loading="lazy"
+                    >
+
+                    <div class="corazon-foto">
+                        ♡
+                    </div>
+
+                </div>
+
+
+
+                <!-- FOTO 13 -->
+
+                <div
+                    class="foto"
+                    onclick="abrirFoto(this)"
+                >
+
+                    <img
+                        src="fotos/foto13.jpeg"
+                        alt="Nuestro recuerdo 13"
+                        loading="lazy"
+                    >
+
+                    <div class="corazon-foto">
+                        ♡
+                    </div>
+
+                </div>
+
+
+
+                <!-- FOTO 14 -->
+
+                <div
+                    class="foto"
+                    onclick="abrirFoto(this)"
+                >
+
+                    <img
+                        src="fotos/foto14.jpeg"
+                        alt="Nuestro recuerdo 14"
+                        loading="lazy"
+                    >
+
+                    <div class="corazon-foto">
+                        ♡
+                    </div>
+
+                </div>
+
+
+
+                <!-- FOTO 15 -->
+
+                <div
+                    class="foto"
+                    onclick="abrirFoto(this)"
+                >
+
+                    <img
+                        src="fotos/foto15.jpeg"
+                        alt="Nuestro recuerdo 15"
+                        loading="lazy"
+                    >
+
+                    <div class="corazon-foto">
+                        ♡
+                    </div>
+
+                </div>
+
+
+
+                <!-- FOTO 16 -->
+
+                <div
+                    class="foto"
+                    onclick="abrirFoto(this)"
+                >
+
+                    <img
+                        src="fotos/foto16.jpeg"
+                        alt="Nuestro recuerdo 16"
+                        loading="lazy"
+                    >
+
+                    <div class="corazon-foto">
+                        ♡
+                    </div>
+
+                </div>
+
+
+
+                <!-- FOTO 17 -->
+
+                <div
+                    class="foto"
+                    onclick="abrirFoto(this)"
+                >
+
+                    <img
+                        src="fotos/foto17.jpeg"
+                        alt="Nuestro recuerdo 17"
+                        loading="lazy"
+                    >
+
+                    <div class="corazon-foto">
+                        ♡
+                    </div>
+
+                </div>
+
+
+
+                <!-- FOTO 18 -->
+
+                <div
+                    class="foto"
+                    onclick="abrirFoto(this)"
+                >
+
+                    <img
+                        src="fotos/foto18.jpeg"
+                        alt="Nuestro recuerdo 18"
+                        loading="lazy"
+                    >
+
+                    <div class="corazon-foto">
+                        ♡
+                    </div>
+
+                </div>
+
+
+
+                <!-- FOTO 19 -->
+
+                <div
+                    class="foto"
+                    onclick="abrirFoto(this)"
+                >
+
+                    <img
+                        src="fotos/foto19.jpeg"
+                        alt="Nuestro recuerdo 19"
+                        loading="lazy"
+                    >
+
+                    <div class="corazon-foto">
+                        ♡
+                    </div>
+
+                </div>
+
+
+
+                <!-- FOTO 20 -->
+
+                <div
+                    class="foto"
+                    onclick="abrirFoto(this)"
+                >
+
+                    <img
+                        src="fotos/foto20.jpeg"
+                        alt="Nuestro recuerdo 20"
+                        loading="lazy"
+                    >
+
+                    <div class="corazon-foto">
+                        ♡
+                    </div>
+
+                </div>
+
+
+
+                <!-- FOTO 21 -->
+
+                <div
+                    class="foto"
+                    onclick="abrirFoto(this)"
+                >
+
+                    <img
+                        src="fotos/foto21.jpeg"
+                        alt="Nuestro recuerdo 21"
+                        loading="lazy"
+                    >
+
+                    <div class="corazon-foto">
+                        ♡
+                    </div>
+
+                </div>
+
+
+
+                <!-- FOTO 22 -->
+
+                <div
+                    class="foto"
+                    onclick="abrirFoto(this)"
+                >
+
+                    <img
+                        src="fotos/foto22.jpeg"
+                        alt="Nuestro recuerdo 22"
+                        loading="lazy"
+                    >
+
+                    <div class="corazon-foto">
+                        ♡
+                    </div>
+
+                </div>
+
+
+
+                <!-- FOTO 23 -->
+
+                <div
+                    class="foto"
+                    onclick="abrirFoto(this)"
+                >
+
+                    <img
+                        src="fotos/foto23.jpeg"
+                        alt="Nuestro recuerdo 23"
+                        loading="lazy"
+                    >
+
+                    <div class="corazon-foto">
+                        ♡
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- TEXTO DESPUÉS DE LAS FOTOS -->
+
+            <p class="subtexto">
+
+                23 pequeños recuerdos...
+
+                <br>
+
+                y todavía nos quedan muchísimos
+                momentos por crear. ❤️
+
+            </p>
+
+
+
+            <button
+                class="btn"
+                onclick="irA('video')"
+            >
+
+                Tengo algo más para ti 🎬
+
+            </button>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ==================================================
+         VISOR DE FOTOS
+         SOLO UNO
+    =================================================== -->
+
+    <div
+        class="visor"
+        id="visor"
+    >
+
+        <button
+            class="cerrar"
+            onclick="cerrarFoto()"
+            aria-label="Cerrar foto"
+        >
+            ×
+        </button>
+
+
+        <div class="foto-grande-contenedor">
+
+            <img
+                id="fotoGrande"
+                src=""
+                alt="Foto de nuestro recuerdo"
+            >
+
+        </div>
+
+    </div>
+
+
+
+    <!-- ==================================================
+         PANTALLA 4
+         VIDEO
+    =================================================== -->
+
+    <section
+        class="pantalla"
+        id="video"
+    >
+
+        <div class="contenido">
+
+
+            <span class="numero">
+                03
+            </span>
+
+
+            <h2>
+                Te quiero mucho 🎬
+            </h2>
+
+
+            <p class="subtexto">
+
+                Eres todo lo bonito que me paso.
+
+            </p>
+
+
+
+            <!-- =========================================
+                 TIKTOK
+            ========================================== -->
+
+            <div class="video-card tiktok-card">
+
+
+                <div class="video-marco">
+
+                    <iframe
+                        src="https://www.tiktok.com/player/v1/7599714615093628182?music_info=1&description=1"
+                        title="Nuestro recuerdo ❤️"
+                        allow="fullscreen"
+                        allowfullscreen
+                        loading="lazy"
+                    >
+                    </iframe>
+
+                </div>
+
+
+                <div class="video-mensaje">
+
+                    Juntos ariamos muchas cosas yo aun creo que lo lograriamos si seguimos intentadolo. ❤️
+
+                </div>
+
+
+            </div>
+
+
+
+            <p class="nota">
+
+                Eres una persona muy importante
+                para mí.
+
+                <br><br>
+
+                Y por eso sigo aquí,
+                intentando que lo nuestro
+                pueda funcionar y podamos
+                crear muchos recuerdos más.
+
+                ❤️
+
+            </p>
+
+
+
+            <button
+                class="btn"
+                onclick="irA('juego')"
+            >
+
+                Jugar conmigo 🎮
+
+            </button>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ==================================================
+         PANTALLA 5
+         JUEGO
+    =================================================== -->
+
+    <section
+        class="pantalla"
+        id="juego"
+    >
+
+        <div class="contenido">
+
+
+            <span class="numero">
+                04
+            </span>
+
+
+            <h2>
+                Un pequeño juego para ti 💗
+            </h2>
+
+
+            <p class="subtexto">
+
+                Atrapa 5 corazones
+                antes de que desaparezcan.
+
+            </p>
+
+
+
+            <div class="juego">
+
+
+                <div id="zonaJuego">
+
+
+                    <div id="corazonJuego">
+
+                        ❤️
+
+                    </div>
+
+
+                </div>
+
+
+                <div class="contador">
+
+                    Corazones:
+
+                    <strong id="puntos">
+                        0
+                    </strong>
+
+                    / 5
+
+                </div>
+
+
+            </div>
+
+
+
+            <p id="mensajeJuego"></p>
+
+
+
+            <button
+                class="btn oculto"
+                id="btnCarta"
+                onclick="irA('carta')"
+            >
+
+                Ganaste 💌
+
+            </button>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ==================================================
+         PANTALLA 6
+         CARTA
+    =================================================== -->
+
+    <section
+        class="pantalla"
+        id="carta"
+    >
+
+        <div class="contenido carta-contenido">
+
+
+            <span class="numero">
+                05
+            </span>
+
+
+
+            <div class="sobre-carta">
+
+
+                <div class="flor">
+                    🌷
+                </div>
+
+
+
+                <h2>
+
+                    Para ti,
+
+                    <span>
+                        mi niña
+                    </span>
+
+                    ❤️
+
+                </h2>
+
+
+
+                <div class="carta-texto">
+
+
+                    <p>
+
+                        Hoy cumpliamos
+                        nuestro primer mesito.
+
+                    </p>
+
+
+                    <p>
+
+                        Y no quería dejar pasar
+                        este día como si fuera
+                        cualquier otro.
+
+                        Quería hacerte algo especial,
+                        algo que pudiera guardar
+                        un poquito de todo
+                        lo que siento por ti.
+
+                    </p>
+
+
+                    <p>
+
+                        Gracias por cada conversación,
+                        cada sonrisa, cada momento bonito
+                        y por todas esas pequeñas cosas
+                        que quizás parecen simples,
+                        pero que para mí significan muchísimo.
+
+                    </p>
+
+
+                    <p>
+
+                        Este es solamente
+                        nuestro primer mes,
+
+                        y espero que sea el comienzo
+                        de muchos recuerdos más.
+
+                    </p>
+
+
+                    <p>
+
+                        Quiero seguir conociéndote,
+                        seguir compartiendo momentos contigo
+                        y descubrir todo lo bonito
+                        que todavía nos falta vivir.
+
+                    </p>
+
+
+                    <p class="especial">
+
+                        Feliz primer mes,
+                        mi amor. ❤️
+
+                    </p>
+
+
+                    <p class="firma">
+
+                        Con mucho cariño,
+
+                        <br>
+
+                        <span>
+                            Franz ❤️
+                        </span>
+
+                    </p>
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <button
+                class="btn"
+                onclick="irA('final')"
+            >
+
+                Hay una última sorpresa... ✨
+
+            </button>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ==================================================
+         PANTALLA 7
+         FINAL
+    =================================================== -->
+
+    <section
+        class="pantalla"
+        id="final"
+    >
+
+        <div class="final-contenido">
+
+
+            <div class="corazon-grande">
+
+                ❤️
+
+            </div>
+
+
+
+            <h1>
+
+                Feliz primer
+
+                <span>
+                    mes
+                </span>
+
+            </h1>
+
+
+
+            <p>
+
+                Y si este fue solamente
+                el comienzo...
+
+            </p>
+
+
+
+            <h2>
+
+                imagina todo lo bonito
+                que todavía nos falta vivir. ✨
+
+            </h2>
+
+
+
+            <div class="rosas">
+
+                🌹 🌷 🌹
+
+            </div>
+
+
+
+            <p class="final-frase">
+
+                Gracias por formar parte
+                de esta pequeña historia. ❤️
+
+            </p>
+
+
+
+            <button
+                class="btn"
+                onclick="reiniciar()"
+            >
+
+                Volver a nuestra historia ❤️
+
+            </button>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ==================================================
+     MÚSICA
+=================================================== -->
+
+<audio id="musica" loop preload="auto">
+    <source src="musica.mp3" type="audio/mpeg">
+    Tu navegador no puede reproducir este audio.
+</audio>
+
+<button
+    class="musica-btn"
+    id="botonMusica"
+    onclick="controlarMusica()"
+    title="Reproducir música">
+    🎵
+</button>
+
+
+
+    <!-- BOTÓN DE MÚSICA -->
+
+    <button
+        class="musica-btn"
+        onclick="controlarMusica()"
+        aria-label="Reproducir música"
+    >
+
+        🎵
+
+    </button>
+
+
+
+    <!-- ==================================================
+         JAVASCRIPT
+    =================================================== -->
+
+    <script src="script.js"></script>
+
+
+</body>
+</html>
